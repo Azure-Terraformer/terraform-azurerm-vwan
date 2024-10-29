@@ -1,4 +1,4 @@
-application_name = "ena-core-network"
+application_name = "aztf-core-network"
 address_space    = "10.8.0.0/23"
 location         = "westus3"
 additional_regions = {

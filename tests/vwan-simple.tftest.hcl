@@ -3,7 +3,7 @@ provider "azurerm" {
 }
 
 variables {
-  application_name = "ena-test"
+  application_name = "aztf-test"
   location         = "westus3"
 }
 
