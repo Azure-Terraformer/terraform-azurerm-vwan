@@ -13,10 +13,10 @@ module "vwan" {
 
   source = "../../"
 
-  resource_group_name    = azurerm_resource_group.main.name
-  location               = azurerm_resource_group.main.location
-  name                   = "${var.application_name}-${random_string.suffix.result}"
-  primary_address_prefix = var.address_space
-  additional_regions     = var.additional_regions
+  resource_group_name   = azurerm_resource_group.main.name
+  location              = azurerm_resource_group.main.location
+  name                  = "${var.application_name}-${random_string.suffix.result}"
+  primary_address_space = var.address_space
+  additional_regions    = var.additional_regions
 
 }

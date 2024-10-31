@@ -35,7 +35,7 @@ No modules.
 | <a name="input_additional_regions"></a> [additional\_regions](#input\_additional\_regions) | A map of additional Azure regions where Virtual Hubs will be deployed, with each key as the region code and value as the region-specific address space. | `map(string)` | n/a | yes |
 | <a name="input_location"></a> [location](#input\_location) | Specifies the Azure region where the resources will be deployed (e.g., 'East US'). | `string` | n/a | yes |
 | <a name="input_name"></a> [name](#input\_name) | Defines the base name to be used for the created resources, helping standardize naming conventions. | `string` | n/a | yes |
-| <a name="input_primary_address_prefix"></a> [primary\_address\_prefix](#input\_primary\_address\_prefix) | Specifies the primary IP address prefix (CIDR format) to assign to the primary Virtual Hub. | `string` | n/a | yes |
+| <a name="input_primary_address_space"></a> [primary\_address\_space](#input\_primary\_address\_space) | Specifies the primary IP address prefix (CIDR format) to assign to the primary Virtual Hub. | `string` | n/a | yes |
 | <a name="input_resource_group_name"></a> [resource\_group\_name](#input\_resource\_group\_name) | Specifies the name of the resource group in which to create the resources. | `string` | n/a | yes |
 
 ## Outputs

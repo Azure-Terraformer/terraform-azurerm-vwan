@@ -10,7 +10,7 @@ variable "name" {
   type        = string
   description = "Defines the base name to be used for the created resources, helping standardize naming conventions."
 }
-variable "primary_address_prefix" {
+variable "primary_address_space" {
   type        = string
   description = "Specifies the primary IP address prefix (CIDR format) to assign to the primary Virtual Hub."
 }
