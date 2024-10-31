@@ -9,7 +9,7 @@ resource "azurerm_virtual_hub" "primary" {
   resource_group_name = var.resource_group_name
   location            = var.location
   virtual_wan_id      = azurerm_virtual_wan.main.id
-  address_prefix      = var.primary_address_prefix
+  address_prefix      = var.primary_address_space
 }
 
 resource "azurerm_virtual_hub" "additional_regions" {
