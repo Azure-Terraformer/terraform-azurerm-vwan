@@ -16,7 +16,7 @@
 
 | Name | Source | Version |
 |------|--------|---------|
-| <a name="module_vwan"></a> [vwan](#module\_vwan) | Azure-Terraformer/vwan/azurerm | 1.0.0 |
+| <a name="module_vwan"></a> [vwan](#module\_vwan) | Azure-Terraformer/vwan/azurerm | 1.0.1 |
 
 ## Resources
 
