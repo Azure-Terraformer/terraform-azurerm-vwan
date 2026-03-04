@@ -1,4 +1,4 @@
-name: tftest-vwan-vpn-simple
+name: tftest-vwan-simple
 
 on:
   workflow_dispatch:
